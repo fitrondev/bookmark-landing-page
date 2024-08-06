@@ -23,7 +23,7 @@ const Header = () => {
             </li>
           </ul>
 
-          <Button>Login</Button>
+          <Button className="uppercase">Login</Button>
         </nav>
 
         {/* Mobile Menu */}
