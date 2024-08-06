@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import Header from "./components/layouts/Header";
 
 export default function App() {
   return (
-    <div>
-      <Button>Click me</Button>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
