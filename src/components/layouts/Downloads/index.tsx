@@ -11,8 +11,7 @@ const Downloads = () => {
           desc="We&#39;ve got more browsers in the pipeline. Please do let us know if you&#39;ve got a favourite you&#39;d like us to prioritize."
         />
 
-        {/* Misalkan ukuran divnya 500px terus div children 1 diatas kiri kedua ditengah ketiga di bawah kanan giaman stylenya? */}
-        <div className="max-w-max mx-auto lg:h-[500px] mt-10 flex flex-col lg:flex-row items-center justify-center gap-5">
+        <div className="max-w-max mx-auto lg:h-[500px] mt-10 flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-5">
           {BROWSERS.map((item) => (
             <DownloadCard
               key={item.id}
