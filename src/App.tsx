@@ -3,6 +3,7 @@ import Faq from "./components/layouts/Faq";
 import Features from "./components/layouts/Features";
 import Header from "./components/layouts/Header";
 import Hero from "./components/layouts/Hero";
+import Join from "./components/layouts/Join";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Features />
       <Downloads />
       <Faq />
+      <Join />
     </>
   );
 }
